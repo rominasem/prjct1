@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cats</title>
+ 
+<style>
+
+html { background:linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
+ }
+
+h1 { background-color: palevioletred;
+ color: aliceblue;
+text-align: center;
+ padding: 50px 23px;
+ margin:25px 300px;
+ border-radius: 10px;
+ font-size: 30px;
+ }
+
+ h2 { color:palevioletred;
+     text-align: center;    
+    
+}
+
+hr {  margin: 10px 300px; 
+
+
+}
+
+img { display: block;
+      margin: 0 auto;   
+}
+
+p{  text-align: center;
+     margin: 10px 300px;
+    font-size: 20px;
+    color: palevioletred;
+    }
+
+    button { display: block;
+             margin: 0 auto;    
+             padding: 20px 30px;
+             font-size: 20px;    
+           border-radius: 10px;
+           background-color: palevioletred;
+           color:aliceblue;
+           border-color:palevioletred ;
+           }
+
+
+           button:hover { background-color: aliceblue;
+                          color: palevioletred;
+                          cursor: pointer;
+           }
+
+
+
+    .sphynx{ color:rgb(173, 152, 98);}
+
+    .more-info { display: block;
+       margin: 0 auto;
+      color:rgb(252, 252, 250);
+      
+    }
+ 
+     
+
+</style>
+
+
+</head>
+
+
+
+  <body>
+    <h1><strong>I love cats!</strong></h1>
+    <h2><em>especially <div class="sphynx" > Sphynx </div>cats</em></h2>
+    <hr />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/119/original/Hairless-cat-breeds-the-Bambino-cat-%C2%A9-Alamy--5b0f92b.jpg?1683056745"
+      width="300px"
+    />
+
+    <p>
+      Sphynx <br />
+      The most obvious feature of this striking cat is their lack of a fur coat;
+      however, Sphynx cats vary in the degree of hairlessness, with some having
+      a very fine ‘peach fuzz’ all over and others just a fine fuzz over the
+      extremities. Due to the lack of fur, the Sphynx cats bone structure and
+      musculature is there for all to see, and this is a remarkably robust cat,
+      built on elegant long lines, with somewhat loose skin that forms wrinkles
+      in some places. They have a somewhat wedge-shaped head with large eyes and
+      ears, quite long legs and tail, and neat rounded paws.
+    </p>
+
+    <a class="more-info" href="https://en.wikipedia.org/wiki/Sphynx_cat" target="_blank"  style="text-align: center;"
+      >More info
+    </a>
+    <br />
+    
+
+    <button>adopt a kitten today!</button>1
+
+    <script>
+     let language = prompt( " what language do you speak?")
+if ( language === "Persian" || language==="persian" ) { alert ( "سلام!")} 
+   else { alert ( "🖐🖐🖐")} 
+ function adoption () { 
+  let name = prompt( " what is your name?")
+  let email = prompt ( "what is your email address?")
+  alert( "Thanks, " + name + " we will be in touch.")
+ }
+
+let contactButton = document.querySelector ("button")
+contactButton.addEventListener ( "click" , adoption)
+
+
+    </script>
+  </body>
+</html>
